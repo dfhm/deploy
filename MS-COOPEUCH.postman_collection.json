@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "e91bcb96-3c3a-4890-a255-cf228d3ce127",
+		"name": "MS-COOPEUCH",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "agrega",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8001/agrega",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"agrega"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "listar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8001/listar",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"listar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eliminar",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8001/eliminar/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"eliminar",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "modificar",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"descripcion\":\"dede\",\n    \"vigente\":true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8002/modificar",
+					"host": [
+						"localhost"
+					],
+					"port": "8002",
+					"path": [
+						"modificar"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
